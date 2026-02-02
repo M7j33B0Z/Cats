@@ -7,7 +7,7 @@
 </head>
 <body>
     <header>
-        <h1>About cats!</h1>
+        <h1>Contact</h1>
     </header>
     <nav>
         <ul>
@@ -19,7 +19,33 @@
     </nav>
     <main>
         <section>
-            <h2>Contact Form</h2>
+            <h2>Join the eNewslestter!</h2>
+            <form> 
+               <label for="fullName">Full Name</label><br>
+               <input type="text" id="fullName" name="fullName" required><br>
+
+               <label for="email">Email Address</label><br>
+               <input type="email" id="email" name="email" required><br>
+
+               <label for="comments">Comments</label><br>
+               <textarea id="comments" name="comments" rows="4" cols="25"></textarea><br>
+
+               <fieldset>
+                <legend>How did you find us?</legend>
+                <label for="friend">A friend<input name="findUs" type="radio" id="friend" value="friend">
+                <label for="instagram">Instagram<input name="findUs" type="radio" id="instagram" value="instagram">
+               </fieldset>
+
+               <fieldset>
+                <legend>What kind of cat(s) do you have?</legend>
+                <label for="tabby">Tabby<input name="cats" type="checkbox" id="tabby" value="tabby">
+                <label for="tortoiseshell">Tortoiseshell<input name="cats" type="checkbox" id="tortoiseshell" value="tortoiseshell">
+                <label for="calico">Calico<input name="cats" type="checkbox" id="calico" value="calico">
+                <label for="maineCoon">Maine Coon<input name="cats" type="checkbox" id="maineCoon" value="maineCoon">
+               </fieldset>
+               
+                             
+            </form>
         </section>
     </main>
     <footer>
